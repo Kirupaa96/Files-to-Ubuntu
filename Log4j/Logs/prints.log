@@ -1,0 +1,8 @@
+21:43:12.522 [main] DEBUG New - Chrome Browser got launched
+21:43:15.270 [main] DEBUG New - Omayo Application got opened
+21:43:15.423 [main] DEBUG New - Browser got maximized
+21:43:16.776 [main] DEBUG New - Compendiumdev link got clicked
+21:43:16.955 [main] DEBUG New - Browser navigated back to Omayo website
+21:43:17.002 [main] DEBUG New - Browser navigated forward to Compendiumdev page
+21:43:17.016 [main] INFO  New - Success: We are in correct page
+21:43:17.397 [main] DEBUG New - End of Test execution

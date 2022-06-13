@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-10T21:11:01 GMT-07:00" name="Default suite" finished-at="2022-05-10T21:11:56 GMT-07:00" duration-ms="54817">
+    <groups>
+    </groups>
+    <test started-at="2022-05-10T21:11:01 GMT-07:00" name="Default test" finished-at="2022-05-10T21:11:56 GMT-07:00" duration-ms="54817">
+      <class name="Pom_pack.Login_test">
+        <test-method signature="login()[pri:0, instance:Pom_pack.Login_test@506ae4d4]" started-at="2022-05-10T21:11:01 GMT-07:00" name="login" finished-at="2022-05-10T21:11:55 GMT-07:00" duration-ms="53350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Pom_pack.Login_test@506ae4d4]" started-at="2022-05-10T21:11:55 GMT-07:00" name="closeapp" finished-at="2022-05-10T21:11:56 GMT-07:00" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- Pom_pack.Login_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
