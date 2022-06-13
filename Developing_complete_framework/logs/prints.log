@@ -1,0 +1,34 @@
+01:33:15.906 [TestNG-test=Test-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+01:33:15.908 [TestNG-test=Test-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+01:33:15.908 [TestNG-test=Test-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+01:33:15.908 [TestNG-test=Test-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+01:33:15.909 [TestNG-test=Test-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+01:33:15.934 [TestNG-test=Test-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+01:33:15.935 [TestNG-test=Test-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+01:33:15.935 [TestNG-test=Test-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+01:33:16.976 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 16724 (auto-detected)
+01:33:16.979 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+01:33:16.980 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+01:33:16.993 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+01:33:16.994 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+01:33:17.038 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 54:ef:33:ff:fe:eb:26:4e (auto-detected)
+01:33:17.121 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+01:33:17.122 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+01:33:17.122 [AsyncHttpClient-1-4] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@599499f3
+01:33:17.160 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+01:33:17.161 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+01:33:17.161 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+01:33:17.161 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+01:33:19.440 [AsyncHttpClient-1-4] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+01:33:19.735 [TestNG-test=Test-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xc312a0d86b1baab8
+01:33:20.328 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Browser got launched
+01:33:36.961 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Navigated to application URL
+01:33:37.157 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Clicked on My Account dropdown
+01:33:38.405 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Clicked on login option
+01:33:38.599 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Email addressed got entered
+01:33:38.798 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Password got entered
+01:33:40.043 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Clicked on Login Button
+01:33:40.126 [TestNG-test=Test-3] DEBUG Tests.LoginTest - User got logged in
+01:33:40.126 [TestNG-test=Test-3] INFO  Tests.LoginTest - Login Test got passed
+01:33:40.134 [AsyncHttpClient-1-6] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+01:33:40.771 [TestNG-test=Test-3] DEBUG Tests.LoginTest - Browser got closed
