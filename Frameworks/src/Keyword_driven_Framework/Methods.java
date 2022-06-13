@@ -36,7 +36,7 @@ public class Methods {
 	
 	public String getMessage(String loc,String locValue)
 	{
-	String errMsg = null;	
+	String errMsg = null; // increasing the scope of var,since we are trying to use it outside.
 	if (loc.equals("cssSelector"))	
 	  {	
 	    errMsg =driver.findElement(By.cssSelector(locValue)).getText();

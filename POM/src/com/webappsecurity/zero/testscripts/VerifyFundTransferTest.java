@@ -9,11 +9,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.webappsecurity.zero.pages.Home;
-import com.webappsecurity.zero.pages.Login;
-import com.webappsecurity.zero.pages.TransferFundsVerfiy;
-import com.webappsecurity.zero.pages.Transferfunds;
-import com.webappsecurity.zero.pages.TransferfundsConfirmation;
+import com.webappsecurity.zero.pages.B_home;
+import com.webappsecurity.zero.pages.A_login;
+import com.webappsecurity.zero.pages.D_transferFundsVerfiy;
+import com.webappsecurity.zero.pages.C_transferfunds;
+import com.webappsecurity.zero.pages.E_transferfundsConfirmation;
 
 public class VerifyFundTransferTest extends Base {
 	
@@ -22,11 +22,11 @@ public class VerifyFundTransferTest extends Base {
 	
 	public void doFundTransfer()
 	{
-		Login lp = new Login(driver); // since it has the constructor you have to pass the driver.
-		Home hm = new Home(driver);
-		Transferfunds tf = new Transferfunds(driver);
-		TransferFundsVerfiy tfv = new TransferFundsVerfiy(driver);
-		TransferfundsConfirmation tfc =new TransferfundsConfirmation(driver);
+		A_login lp = new A_login(driver); // since it has the constructor you have to pass the driver when you are creating object of the class.
+		B_home hm = new B_home(driver);
+		C_transferfunds tf = new C_transferfunds(driver);
+		D_transferFundsVerfiy tfv = new D_transferFundsVerfiy(driver);
+		E_transferfundsConfirmation tfc =new E_transferfundsConfirmation(driver);
 		
 		lp.applicationlogin("username","password");
 		driver.navigate().back(); // coz of http req
@@ -42,7 +42,4 @@ public class VerifyFundTransferTest extends Base {
 	    Assert.assertEquals(ActualMsg , ExpectedMsg);
 	        		
 	}
-	
-	
-	
 }

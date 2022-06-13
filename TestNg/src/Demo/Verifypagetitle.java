@@ -24,7 +24,7 @@ WebDriver driver; // declaring the object driver globally
 	public void verifytitle()
 	{
 		String ActualTitle = driver.getTitle();
-		String ExpectedTitle = "Facebook - Log In or Sign Up";
+		String ExpectedTitle = "Facebook - log in or sign up";
 		Assert.assertEquals(ActualTitle,ExpectedTitle);
 	}
 	
@@ -32,7 +32,7 @@ WebDriver driver; // declaring the object driver globally
 	
 	public void closeapplication()
 	{
-		 driver.quit();
+		  driver.quit();
 	}
 	
 }

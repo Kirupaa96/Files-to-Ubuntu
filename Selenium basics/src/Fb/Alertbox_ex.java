@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Alertbox_ex {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver =new ChromeDriver();
 		driver.manage().window().maximize(); 
@@ -18,13 +18,12 @@ public class Alertbox_ex {
 		driver.findElement(By.cssSelector("#content > div > ul > li:nth-child(1) > button")).click();
 		
 		driver.switchTo().alert().accept(); // to accept (clicks ok) on alert box. 
+		//  driver.switchTo().alert().cancel(); >>>>>> if u want to cancel an alert box 
 		
 		
-		// if u want to cancel an alert box 
-		
-		//  driver.switchTo().alert().cancel();
-		
-		
+	    driver.findElement(By.cssSelector("#content > div > ul > li:nth-child(3) > button")).click();
+		driver.switchTo().alert().sendKeys("Hi this is kirupaa");
+		driver.switchTo().alert().accept();
 		
 		
 		

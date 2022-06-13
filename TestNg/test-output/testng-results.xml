@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-23T22:03:28 GMT-07:00" name="Default suite" finished-at="2022-03-23T22:04:15 GMT-07:00" duration-ms="47585">
+  <suite started-at="2022-04-22T21:56:52 GMT-07:00" name="Default suite" finished-at="2022-04-22T21:57:20 GMT-07:00" duration-ms="28282">
     <groups>
     </groups>
-    <test started-at="2022-03-23T22:03:28 GMT-07:00" name="Default test" finished-at="2022-03-23T22:04:15 GMT-07:00" duration-ms="47585">
+    <test started-at="2022-04-22T21:56:52 GMT-07:00" name="Default test" finished-at="2022-04-22T21:57:20 GMT-07:00" duration-ms="28282">
       <class name="Demo.Screenshot_ex">
-        <test-method is-config="true" signature="openapplication()[pri:0, instance:Demo.Screenshot_ex@d5b810e]" started-at="2022-03-23T22:03:28 GMT-07:00" name="openapplication" finished-at="2022-03-23T22:03:52 GMT-07:00" duration-ms="24541" status="PASS">
+        <test-method is-config="true" signature="openapplication()[pri:0, instance:Demo.Screenshot_ex@d5b810e]" started-at="2022-04-22T21:56:52 GMT-07:00" name="openapplication" finished-at="2022-04-22T21:56:59 GMT-07:00" duration-ms="6698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapplication -->
-        <test-method signature="verifyfundtransfer()[pri:0, instance:Demo.Screenshot_ex@d5b810e]" started-at="2022-03-23T22:03:53 GMT-07:00" name="verifyfundtransfer" finished-at="2022-03-23T22:04:15 GMT-07:00" duration-ms="22387" status="FAIL">
+        <test-method signature="verifyfundtransfer()[pri:0, instance:Demo.Screenshot_ex@d5b810e]" started-at="2022-04-22T21:56:59 GMT-07:00" name="verifyfundtransfer" finished-at="2022-04-22T21:57:20 GMT-07:00" duration-ms="21263" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Script failed due to exceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#transfer_funds_link"}
-  (Session info: chrome=99.0.4844.82)
+              <![CDATA[Script failed due to exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#transfer_funds_link"}
+  (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-MP5P5GA', ip: '192.168.1.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+System info: host: 'DESKTOP-MP5P5GA', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [31cefea2cdc7b20bf3a0e628712cda16, findElement {using=id, value=transfer_funds_link}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\WELCOME\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:10050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10050/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 31cefea2cdc7b20bf3a0e628712cda16]]>
+Command: [392bdce0bdc9ddf53e679bbbdff1af23, findElement {using=id, value=transfer_funds_link}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\WELCOME\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6346/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 392bdce0bdc9ddf53e679bbbdff1af23]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Script failed due to exceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#transfer_funds_link"}
-  (Session info: chrome=99.0.4844.82)
+              <![CDATA[java.lang.AssertionError: Script failed due to exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#transfer_funds_link"}
+  (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-MP5P5GA', ip: '192.168.1.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+System info: host: 'DESKTOP-MP5P5GA', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [31cefea2cdc7b20bf3a0e628712cda16, findElement {using=id, value=transfer_funds_link}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\WELCOME\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:10050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10050/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 31cefea2cdc7b20bf3a0e628712cda16
+Command: [392bdce0bdc9ddf53e679bbbdff1af23, findElement {using=id, value=transfer_funds_link}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\WELCOME\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6346/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 392bdce0bdc9ddf53e679bbbdff1af23
 at org.testng.Assert.fail(Assert.java:99)
 at Demo.Screenshot_ex.verifyfundtransfer(Screenshot_ex.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -70,7 +70,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyfundtransfer -->
-        <test-method is-config="true" signature="closeapplication()[pri:0, instance:Demo.Screenshot_ex@d5b810e]" started-at="2022-03-23T22:04:15 GMT-07:00" name="closeapplication" finished-at="2022-03-23T22:04:15 GMT-07:00" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="closeapplication()[pri:0, instance:Demo.Screenshot_ex@d5b810e]" started-at="2022-04-22T21:57:20 GMT-07:00" name="closeapplication" finished-at="2022-04-22T21:57:20 GMT-07:00" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapplication -->

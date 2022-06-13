@@ -53,10 +53,9 @@ public class Screenshot_ex {
 	     catch (Exception ex) //ex is the name of an exception
 	        {
 	    	 takeScreenshot();
-	    	 Assert.fail("Script failed due to exception"+ex);
-	    	 
-	       }
-	  }		
+	    	 Assert.fail("Script failed due to exception " + ex);
+	    	 }
+	       }		
 	
 		 private void takeScreenshot() throws IOException {
 				File ss = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

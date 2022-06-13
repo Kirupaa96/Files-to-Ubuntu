@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -30,12 +31,11 @@ WebDriver driver;
 		System.setProperty("webdriver.edge.driver","msedgedriver.exe"); 
 		driver = new EdgeDriver(); 	
 	}
-	
-	/* else if(browser.equals("Firefox"))
+	 else if(browser.equals("Firefox"))
 	{
-		System.setProperty("webdriver.FIrefox.driver","Firefoxdriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","geckodriver.exe"); 
 		driver = new FirefoxDriver(); 	
-	} */
+	} 
 	
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -63,7 +63,7 @@ WebDriver driver;
       Assert.assertEquals(Actualtext,Expectedtext);
     }
 
-@Test(priority =2)//,enabled = false) //this will skip the validation
+@Test(priority =2)// ,enabled = false) //this will skip the validation
       
      public void verifylogin()
      {

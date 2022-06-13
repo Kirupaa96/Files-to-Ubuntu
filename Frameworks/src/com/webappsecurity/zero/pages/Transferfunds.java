@@ -31,10 +31,10 @@ public class Transferfunds {
 	}
 	
 	
-	public void doFundTransfer(int fromAcountIndex,int toAccountIndex,String amount,String description) //sendkeys accept only string.
+	public void doFundTransfer(String fromAcountIndex,int toAccountIndex,String amount,String description) //sendkeys accept only string.
 	{
 		Select fromAccDD= new Select(fromAcc); //create object of select class 
-		fromAccDD.selectByIndex(fromAcountIndex); //use this object to call the method selectbyindex and pass the index 2 
+		fromAccDD.selectByValue(fromAcountIndex); //use this object to call the method selectbyindex and pass the index 2 
 		
 		Select toAccDD = new Select(toAcc);
 		toAccDD.selectByIndex(toAccountIndex);		

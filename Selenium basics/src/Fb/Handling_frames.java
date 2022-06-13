@@ -24,14 +24,5 @@ public static void main(String[] args) {
 	driver.findElement(By.linkText("Actions")).click(); //then it clicks on actions link  
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
 }

@@ -33,14 +33,4 @@ public class Base {         // base class is the parent class and remaining are 
 	       {
 		      driver.quit();
 	       }
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}
+	    }

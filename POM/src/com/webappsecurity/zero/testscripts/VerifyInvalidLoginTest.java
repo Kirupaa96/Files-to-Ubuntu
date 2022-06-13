@@ -9,14 +9,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.webappsecurity.zero.pages.Login;
+import com.webappsecurity.zero.pages.A_login;
 
 	public class VerifyInvalidLoginTest extends Base {
 		@Test  
 		   
 		 public void InvalidLogin()
 		  {
-		 	Login lp =new Login(driver);
+		 	A_login lp =new A_login(driver);
 		 	lp.applicationlogin("username","hbwojfnlvwn");
 			
 			String ActualText = lp.getErrorMsgText();

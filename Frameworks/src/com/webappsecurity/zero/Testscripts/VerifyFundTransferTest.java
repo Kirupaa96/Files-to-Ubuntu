@@ -38,7 +38,7 @@ public class VerifyFundTransferTest extends Base {
 		
 		hm.clicktransferfunds();
 		
-		tf.doFundTransfer(Integer.parseInt(data[i][2]),Integer.parseInt(data[i][3]),data[i][4],data[i][5]);
+		tf.doFundTransfer((data[i][2]),Integer.parseInt(data[i][3]),data[i][4],data[i][5]);
 		
 		tfv.clickSubmit();
 		
@@ -49,11 +49,8 @@ public class VerifyFundTransferTest extends Base {
 		// to logout from app and to return to login page inorder to run m/p iterations
 		tfc.logoutFromApp();
 		driver.navigate().to("http://zero.webappsecurity.com/login.html");
-		
-		
-		}
-		
 	}
+}
 	
 	
 	

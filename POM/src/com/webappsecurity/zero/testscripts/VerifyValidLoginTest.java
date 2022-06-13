@@ -9,8 +9,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.webappsecurity.zero.pages.Home;
-import com.webappsecurity.zero.pages.Login;
+import com.webappsecurity.zero.pages.B_home;
+import com.webappsecurity.zero.pages.A_login;
 
 public class VerifyValidLoginTest extends Base {
 	 
@@ -19,8 +19,8 @@ public class VerifyValidLoginTest extends Base {
 	   
 	   public void verifyValidLogin()
 	   {
-	    Login lp = new Login(driver);
-	    Home hm = new Home(driver);
+	    A_login lp = new A_login(driver);
+	    B_home hm = new B_home(driver);
 	    
 	    
 	    lp.applicationlogin("username","password");

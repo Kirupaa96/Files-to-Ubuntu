@@ -2,16 +2,22 @@ package Fb;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Verify_page_title {
+	
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver","chromedriver.exe"); //path for chrome driver 
+		//System.setProperty("webdriver.gecko.driver","geckodriver.exe");
+		//WebDriver driver =new FirefoxDriver();
 		
-		WebDriver driver =new ChromeDriver(); //webdriver is class name, driver is the object name.
+		
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe"); //path for chrome driver 
+		WebDriver driver =new ChromeDriver(); //webdriver is class name, driver is the object name,chromedriver is a childclass.
+		
 		driver.get("https://www.facebook.com/");
 		String ActualTitle = driver.getTitle();
-		String ExpectedTitle = "Facebook - Log In or Sign Up";
+		String ExpectedTitle = "Facebook - log in or sign up";
 		
 		if (ActualTitle.equals(ExpectedTitle))
 		{
@@ -24,7 +30,5 @@ public class Verify_page_title {
 		 driver.quit();
 		
 		
-		
-	}
-
+}
 }
