@@ -17,7 +17,7 @@ public class VerifyFundTransferTest extends Base {
 
 	@Test 
 	
-	public void VerifyFundTransfer() throws IOException
+	public void VerifyFundTransfer() throws IOException  
 	{
 		Login lp =new Login(driver);
 		Home hm =new Home(driver);

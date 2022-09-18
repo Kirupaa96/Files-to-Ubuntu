@@ -18,6 +18,7 @@ public class Data_provider {
 	public Object[][] getdata()
 	{
 		Object[][] data=new Object[3][2];
+		
 		data[0][0]="Kirupaa";
 		data[0][1]="123";
 		
