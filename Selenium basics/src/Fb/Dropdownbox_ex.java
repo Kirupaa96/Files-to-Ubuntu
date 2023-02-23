@@ -1,7 +1,7 @@
 package Fb;
 
 import java.time.Duration;
-
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,6 +34,27 @@ public class Dropdownbox_ex {
      you can select the month by its value. On chrome dev tool ,click on black triangle button to know the value 
 	
 	      dd.selectByValue("8"); */	
+	
+	
+	// getoptions()method is used to get all the menus from the drop down 
+	
+	WebElement yeardd= driver.findElement(By.name("birthday_year"));
+	
+	Select ydd = new Select(yeardd);
+	List <WebElement> options= ydd.getOptions();
+	
+	for (WebElement totalyrs : options)
+	{
+		System.out.println(totalyrs);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 			
 	}
 }

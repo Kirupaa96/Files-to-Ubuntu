@@ -2,7 +2,6 @@ package Fb;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Verify_page_title {
 	
@@ -12,7 +11,7 @@ public class Verify_page_title {
 		//WebDriver driver =new FirefoxDriver();
 		
 		
-		System.setProperty("webdriver.chrome.driver","chromedriver.exe"); //path for chrome driver 
+		System.setProperty("webdriver.chrome.driver","chromedriver"); //path for chrome driver 
 		WebDriver driver =new ChromeDriver(); //webdriver is class name, driver is the object name,chromedriver is a childclass.
 		
 		driver.get("https://www.facebook.com/");

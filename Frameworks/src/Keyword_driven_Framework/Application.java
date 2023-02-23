@@ -12,7 +12,7 @@ public class Application {
 	@Test
 	public void verifyInvalidLogin() throws IOException {
 		
-	String[][] data = GenericMethods.getData("G:\\D backup\\Software testing\\Course\\Selenium\\week 4\\Testdata.xlsx", "Sheet2");
+	String[][] data = GenericMethods.getData("\\Users\\kirupaashankar\\Kirupaa\\Software Testing\\Course\\Selenium\\week 4\\Testdata.xlsx", "Sheet2");
 	Methods mtd =new Methods(); // create outside for loop
 	for(int i=1;i<data.length;i++)
 	{

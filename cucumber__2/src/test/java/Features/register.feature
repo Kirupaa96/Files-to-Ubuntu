@@ -10,7 +10,7 @@ When I enter below details
 |LastName    |Shankar          |
 |Email       |krish96@gmail.com|
 |Telephone   |9874561233       |
-|Password|krish96|
+|Password    |krish96          |
 And I select privacy policy option 
 And I click on continue button 
 Then User should be able to successfully register

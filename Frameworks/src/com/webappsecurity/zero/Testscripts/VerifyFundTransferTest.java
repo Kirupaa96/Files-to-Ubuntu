@@ -26,7 +26,7 @@ public class VerifyFundTransferTest extends Base {
 		TransferfundsConfirmation tfc = new TransferfundsConfirmation(driver);
 		
 		
-		String[][] data = GenericMethods.getData("G:\\D backup\\Software testing\\Course\\Selenium\\week 4\\Testdata.xlsx","Sheet1"); //so,this test data will be 
+		String[][] data = GenericMethods.getData("\\Users\\kirupaashankar\\Kirupaa/Software Testing\\Course\\Selenium\\week 4\\Testdata.xlsx","Sheet1"); //so,this test data will be 
 		                                                                                                                              //stored in a array name data.
 		
 		// If i have to run the below script for m/p iterations,use for loop.

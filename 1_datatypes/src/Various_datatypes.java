@@ -1,4 +1,3 @@
-
 public class Various_datatypes {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -20,5 +19,10 @@ public class Various_datatypes {
 	Thread.sleep(1000);
 	System.out.println(z);
 	
+	
+	
 	}	
 }
+
+
+  

@@ -23,7 +23,7 @@ public class Screenshot_ex {
 		
 		public void openapplication()
 		{
-		System.setProperty("webdriver.chrome.driver","chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver","chromedriver"); 
 		driver = new ChromeDriver(); 
 		
 		driver.manage().window().maximize();
@@ -59,7 +59,7 @@ public class Screenshot_ex {
 	
 		 private void takeScreenshot() throws IOException {
 				File ss = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-				FileHandler.copy(ss, new File("G:\\D backup\\Software testing\\JAVA\\screenshots\\screenshot"+(new Random().nextInt())+".jpg"));
+				FileHandler.copy(ss, new File("/Users/kirupaashankar/SC"+(new Random().nextInt())+".jpg"));
 			}
 
  

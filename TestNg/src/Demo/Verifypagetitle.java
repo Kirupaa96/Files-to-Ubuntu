@@ -14,7 +14,7 @@ WebDriver driver; // declaring the object driver globally
 	
 	public void openapplication()
 	{
-	System.setProperty("webdriver.chrome.driver","chromedriver.exe"); 
+	System.setProperty("webdriver.chrome.driver","chromedriver"); 
 	driver = new ChromeDriver(); 
 	driver.get("https://www.facebook.com/");
 	}

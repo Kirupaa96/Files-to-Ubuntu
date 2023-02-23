@@ -123,7 +123,7 @@ public static void main(String[] args) {
 	 
 	 //Switch case 
 	 
-	 int date= 100;
+	 int date= 1;
 	 
 	 switch(date)
 	 {

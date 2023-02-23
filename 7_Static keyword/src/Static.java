@@ -21,6 +21,7 @@ public class Static {
 	static void m2() //static method
 	{
 		System.out.println("m2 is a static method");
+		
 	}
 	
 	

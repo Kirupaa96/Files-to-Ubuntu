@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.InputMismatchException;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -21,7 +22,12 @@ public class Duplicates_array {
 		//Fibonacci();
 		//min_num();
 		//Reverse_sentence();
-		Palindrome();
+		//Palindrome();
+		//example1();
+		//example2();
+		//example3();
+		//example4();
+		example5();
 	}
 	
 		
@@ -340,6 +346,168 @@ public class Duplicates_array {
 	}
 		
 		
+	public static void example1()
+	{
+		Scanner scan = new Scanner(System.in);
+        
+	    int i = scan.nextInt();
+        double d = scan.nextDouble();
+        
+        scan.nextLine();
+        String s = scan.nextLine();
+
+        // Write your code here.
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+		
+	}
+
+	
+	public static void example2()
+	{
+		Scanner scan = new Scanner(System.in);
+		int N = scan.nextInt();
+		
+		if(N>=2 && N<=20)
+		{
+	       for (int i=1; i<=10; i++)
+	       {
+	    	   int result = N*i;
+	    	   System.out.println(N+" x "+i+" = "+result);
+	       }
+		}
+		else
+		{
+			System.out.println("Enter the number between the range");
+		}
+		
+	}
+
+    public static void example3()
+    {
+    	 Scanner scan = new Scanner(System.in);
+    	 int q = scan.nextInt();
+    	
+    	for (int i=1; i<=q; i++)
+    	{
+    		int a = scan.nextInt();
+    		int b = scan.nextInt();
+    		int n = scan.nextInt();
+    		
+    		double sum=0;
+    		for (int j=0; j<n; j++)
+    		{
+    		    sum = sum + Math.pow(2,j)*b;
+    	        double fina=a+sum;
+    	        int Result= (int)fina;
+    	        System.out.print(Result+" ");
+    	    }
+    		System.out.println();
+    	}
+    }
+    	
+    public static void example4()
+    {
+    	 Scanner sc = new Scanner(System.in);
+    	    int t=sc.nextInt();
+
+    	    for(int i=0;i<t;i++)
+    	    {
+
+    	        try
+    	        {
+    	            long x=sc.nextLong();
+    	            System.out.println(x+" can be fitted in:");
+
+    	            if(x>=-128 && x<=127)
+    	            System.out.println("* byte");
+
+    	            if(x>=-32768 && x<=32767)
+    	            System.out.println("* short");
+
+    	            if(x>=-2147483648 && x<=2147483647)
+    	            System.out.println("* int");
+
+    	            if(x>=-Math.pow(2,63) && x<=Math.pow(2,63)-1)                          
+    	            	System.out.println("* long");
+    	        }
+    	        catch(Exception e)
+    	        {
+    	        System.out.println(sc.next()+" can't be fitted anywhere.");
+    	        }
+
+    	    }
+    	}
+    
+    public static void example5()
+    {
+    	Scanner sc = new Scanner(System.in);
+    	
+    	int position =1;
+    	
+    	while(sc.hasNext())
+    	{
+    	  String s=	sc.nextLine();
+    	
+          System.out.println(position + " "+s);
+    	  position++;
+        }
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    		
+   }
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    
 
 	
 	
@@ -353,8 +521,7 @@ public class Duplicates_array {
 	
 	
 	
-	
-}
+
 
 
 

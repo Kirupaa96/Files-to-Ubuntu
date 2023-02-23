@@ -11,7 +11,7 @@ public class Demo {
 	public static void main(String[] args) throws SQLException {
 		
 		//connect to mssql db
-	     Connection connection = DriverManager.getConnection("jdbc:sql://DESKTOP-MP5P5GA//SQLEXPRESS/demo");
+	     Connection connection = DriverManager.getConnection("jdbc:sql://DESKTOP-MP5P5GA//SQLEXPRESS/demo","username","password");
 		
 		//get the data from employees table of demo db
 	   Statement statement = connection.createStatement();
@@ -24,7 +24,12 @@ public class Demo {
 			System.out.println(resultset.getString("location"));
 			System.out.println(resultset.getInt("experience"));
 	   }
+	   
+	   
+	   connection.close();
+	   
 	  }
 
 	
 }
+  

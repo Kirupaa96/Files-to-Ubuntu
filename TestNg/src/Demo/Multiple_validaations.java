@@ -23,7 +23,7 @@ WebDriver driver;
 	{
 	if (browser.equals("chrome"))
 	{
-	System.setProperty("webdriver.chrome.driver","chromedriver.exe"); 
+	System.setProperty("webdriver.chrome.driver","chromedriver"); 
 	driver = new ChromeDriver(); 
 	}
 	else if(browser.equals("Edge"))
@@ -50,7 +50,7 @@ WebDriver driver;
    public void verifypagetitle()
    {
 	String Actualtitle = driver.getTitle();
-	String Expectedtitle = "Job Vacancy - Latest Job Openings - Job Search Online - Monster India";
+	String Expectedtitle = "Monster India - Jobs - Recruitment - Job Search - Job Vacancies - Aug 2022";
 	Assert.assertEquals(Actualtitle, Expectedtitle);
    }
 

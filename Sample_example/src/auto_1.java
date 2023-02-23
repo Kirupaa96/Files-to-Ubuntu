@@ -22,16 +22,6 @@ public class auto_1 {
 			int ans =(x*x)+10;
 			System.out.println(ans);
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	
 }

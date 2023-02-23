@@ -9,8 +9,8 @@ public class String_reversal {
 	Scanner name =new Scanner(System.in);
 	String input =name.nextLine();
 	String output ="";
-	//int l=input.length();
-	//System.out.println("The length of the string is:"+l);
+	int l=input.length();
+	System.out.println("The length of the string is:"+l);
 	
 	  for(int i=input.length()-1;i>=0;i--)
 	  {
